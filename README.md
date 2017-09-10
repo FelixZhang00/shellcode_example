@@ -4,8 +4,8 @@ a shecode example build on ubuntu 32bit.
 
 write a sample shellcode, build it.
 ```sh
-$nasm -f elf helloworld.asm
-ld helloworld.o
+$ nasm -f elf helloworld.asm
+$ ld helloworld.o
 ```
 
 `runshellcode.c` will read a shekkcode.bin to a buffer, and run code from the buffer.
